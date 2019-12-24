@@ -5,3 +5,4 @@ with open(filename,'r',encoding='utf-8')as f:
         path = r'C:\Users\admin\Desktop\test.txt'
         g = open(path,'a')
         g.write(lines)
+        print('已处理')
